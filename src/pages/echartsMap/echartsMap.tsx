@@ -22,8 +22,8 @@ let convertData = function (data : any) {
   return res;
 };
 
-let coverCtoE = (value = '') => {
-  let name = value;
+let coverCtoE = (value : any) => {
+  let name = '';
   switch (value) {
     case "北京市" :
       name = 'beijing';
@@ -406,7 +406,7 @@ export default function EchartsMap() {
 
   return (
     <div id={'main'} style={{ marginTop: 20, height: 'calc(100vh - 50px)'}}>
-
+      ...
     </div>
   )
 }
