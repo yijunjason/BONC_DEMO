@@ -406,7 +406,7 @@ export default function EchartsMap() {
 
   return (
     <div id={'main'} style={{ marginTop: 20, height: 'calc(100vh - 50px)'}}>
-      ...
+
     </div>
   )
 }
